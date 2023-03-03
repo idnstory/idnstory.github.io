@@ -1,0 +1,49 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HealthTest</title>
+  <link rel="stylesheet" href="../dist/components.css">
+  <style>
+    .main-section {
+      width: 800px;
+      margin: auto;
+      margin-top: 10px;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .all-check-btn-wrapper {
+      display: block;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <section class="main-section">
+      <h2 class="title">☀️ Haezoom Web Stie Information!</h2>
+
+      <div style="display: flex; justify-content: space-between;">
+        <a href="https://docs.google.com/spreadsheets/d/1k-BALqx5G5sdIhqYJGwFfIqOLup-Tb7Uw1zuNczUm1Y/edit?pli=1#gid=609634781" target="_blank">
+          Google Sheet
+        </a>
+        <div class="all-check-btn-wrapper">
+          <all-check-button />
+        </div>
+      </div>
+      <div id="health-check-list"></div>
+      <health-check-item />
+    </section>
+  </section>
+
+  <script defer src="./dist/components.js"></script>
+
+  <script defer src="./data.js"></script>
+  <script defer src="./script.js"></script>
+</body>
+</html>
