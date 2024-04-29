@@ -1,5 +1,3 @@
-
-
 function render() {
   window.$$data.items.forEach((v) => {
     const $list = document.querySelector('#health-check-list');
